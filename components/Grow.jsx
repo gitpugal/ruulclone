@@ -10,18 +10,18 @@ import Image from 'next/image'
 const Grow = () => {
     const heroImages = [one, two, three, four]
     return (
-        <div className='w-screen relative border-b-[1px] border-[#003e39] px-5 md:px-24 text-center flex flex-col gap-10 items-center justify-center h-fit pt-20 pb-36  bg-[#c9fec6]'>
-            <div className='flex text-left md:text-center flex-col gap-10 items-center justify-center h-full w-full'>
-                <p className='text-left md:text-center font-bold w-full'>GET STARTED NOW</p>
-                <h1 className='text-7xl font-extrabold w-full md:w-1/2'>
+        <div className='w-screen relative border-b-[1px] border-[#003e39] px-5 lg:px-24 text-center flex flex-col gap-10 items-center justify-center h-fit pt-20 pb-36  bg-[#c9fec6]'>
+            <div className='flex text-left lg:text-center flex-col gap-10 items-center justify-center h-full w-full'>
+                <p className='text-left lg:text-center font-bold w-full'>GET STARTED NOW</p>
+                <h1 className='text-7xl font-extrabold w-full lg:w-1/2'>
                     Grow and thrive without borders                </h1>
-                <p className='text-xl w-full md:w-1/2'>
+                <p className='text-xl w-full lg:w-1/2'>
                     Join 50k+ talents and 10k+ businesses from 120 countries to discover how effortless global work can be with Ruul&apos;s smart worktech solutions.                </p>
-                <div className='flex flex-col w-full gap-5 md:gap-0 md:flex-row items-center justify-center '>
-                    <button className='w-full md:w-fit px-7 py-3 mr-3 rounded-lg bg-[#003e39] text-[#c9fec6] font-bold'>
+                <div className='flex flex-col w-full gap-5 lg:gap-0 lg:flex-row items-center justify-center '>
+                    <button className='w-full lg:w-fit px-7 py-3 mr-3 rounded-lg bg-[#003e39] text-[#c9fec6] font-bold'>
                         I&apos;m a Talent
                     </button>
-                    <button className='w-full md:w-fit  px-7 py-3 mr-3 rounded-lg bg-white text-[#003e39] border-[1px] border-[#003e39] font-bold'>
+                    <button className='w-full lg:w-fit  px-7 py-3 mr-3 rounded-lg bg-white text-[#003e39] border-[1px] border-[#003e39] font-bold'>
                         I&apos;m a Business
                     </button>
 

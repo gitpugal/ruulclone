@@ -55,8 +55,8 @@ const Questions = () => {
 
 
     return (
-        <div className='w-screen relative border-b-[1px] leading-10 border-[#003e39] px-5 md:px-24 text-left flex flex-col md:flex-row gap-10 items-start justify-center h-fit  py-36  bg-[#f6f8fe]'>
-            <div className='flex text-left flex-col gap-10 items-center justify-center pr-10 h-full w-full md:w-[40%]'>
+        <div className='w-screen relative border-b-[1px] leading-10 border-[#003e39] px-5 lg:px-24 text-left flex flex-col lg:flex-row gap-10 items-start justify-center h-fit  py-36  bg-[#f6f8fe]'>
+            <div className='flex text-left flex-col gap-10 items-center justify-center pr-10 h-full w-full lg:w-[40%]'>
                 <p className='text-left font-bold w-full'>HERE TO HELP</p>
                 <h1 className='text-7xl font-extrabold w-full'>
                     Common questions
@@ -66,13 +66,13 @@ const Questions = () => {
                 </p>
                 <p className='text-left font-bold w-full'>Need further support?</p>
                 <div className='w-full'>
-                    <button className='px-7  mx-auto w-full md:w-fit py-3 mr-0 md:mr-3 rounded-lg bg-[#003e39] text-[#c9fec6] font-bold'>
+                    <button className='px-7  mx-auto w-full lg:w-fit py-3 mr-0 lg:mr-3 rounded-lg bg-[#003e39] text-[#c9fec6] font-bold'>
                         Get Support
                     </button>
                 </div>
 
             </div>
-            <div className='h-full w-full md:w-[70%] flex flex-col  items-center justify-center'>
+            <div className='h-full w-full lg:w-[70%] flex flex-col  items-center justify-center'>
                 {
                     QandA.map((data, index) => (
                         <div  key={index} id={index} data-visible="false" className={`flex font-bold  transition-all gap-5 duration-300 ease-in-out w-full my-5 max-h-fit min-h-[20%]

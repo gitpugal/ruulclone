@@ -24,11 +24,11 @@ const Protocol = () => {
         }
     ]
     return (
-        <div className='w-screen  mt-10 md:mt-44 relative border-b-[1px] border-[#003e39] px-5 md:px-24 text-left flex flex-col md:flex-row gap-10 items-center justify-center h-fit pt-20 pb-36  bg-[#f6f8fe]'>
-            <div className='h-full w-1/2 hidden md:block flex flex-col items-start'>
+        <div className='w-screen  mt-10 lg:mt-44 relative border-b-[1px] border-[#003e39] px-5 lg:px-24 text-left flex flex-col lg:flex-row gap-10 items-center justify-center h-fit pt-20 pb-36  bg-[#f6f8fe]'>
+            <div className='h-full w-1/2 hidden lg:block flex flex-col items-start'>
                 <Image src={ProtocolImg} className='w-[68%]' alt="hero Bg" />
             </div>
-            <div className='flex text-left flex-col gap-10 items-center justify-center h-full w-full md:w-1/2'>
+            <div className='flex text-left flex-col gap-10 items-center justify-center h-full w-full lg:w-1/2'>
                 <p className='text-left font-bold w-full'>AGENCY OF RECORD</p>
                 <h1 className='text-6xl font-extrabold'>
                     A new connection
@@ -37,7 +37,7 @@ const Protocol = () => {
                 <p className='text-xl w-full '>
                     Say goodbye to the old and outdated payroll system. Modern work demands a new employment protocol between talents and businesses. Ruul pioneers this revolutionary transformation.
                 </p>
-                <div className='bg-[#feefca]  w-full px-2 md:px-10 py-7 flex flex-row gap-5 items-center rounded-2xl border-[#003e39] border-[1px]'>
+                <div className='bg-[#feefca]  w-full px-2 lg:px-10 py-7 flex flex-row gap-5 items-center rounded-2xl border-[#003e39] border-[1px]'>
                     <Image src={thinkIcon} alt="" />
                     <p className='text-sm'>
                         Agency of Record (AOR) service enables off-payroll talents and organizations to work together in a

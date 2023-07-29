@@ -32,7 +32,7 @@ const Footer = () => {
         'DSAR']
     return (
         <div className='w-full py-8 justify-around h-fit flex flex-col gap-24 bg-[#003e39]'>
-            <div className=' pt-24 items-center grid grid-cols-2 md:grid-cols-6 px-10 text-[#cafdc6] w-full '>
+            <div className=' pt-24 items-center grid grid-cols-2 lg:grid-cols-6 px-10 text-[#cafdc6] w-full '>
                 <h1 className='font-extrabold text-6xl '>Ruul</h1>
                 {footerLinks.map((links, index) => (
                     <div key={index} id={index} className='my-8'>
@@ -46,9 +46,9 @@ const Footer = () => {
                 ))}
             </div>
             <hr className='w-[80%] bg-[#c9fec6] border-[#c9fec6] mx-auto' />
-            <div className='w-full h-[30vh] md:h-fit  flex flex-col md:flex-row items-center justify-center  gap-10 '>
+            <div className='w-full h-[30vh] lg:h-fit  flex flex-col lg:flex-row items-center justify-center  gap-10 '>
                 <button className='bg-[#c9fec6] w-fit   px-3 py-2 rounded-2xl'>English    &gt;</button>
-                <div className=' flex mx-10 md:mx-0 flex-row text-[#c9fec6] gap-5 w-fit justify-around items-center'>
+                <div className=' flex mx-10 lg:mx-0 flex-row text-[#c9fec6] gap-5 w-fit justify-around items-center'>
                     {footerLink.map((link, index) => (
                         <p key={index}>{link}</p>
                     ))}

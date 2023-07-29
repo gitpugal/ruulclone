@@ -3,9 +3,9 @@ import React from 'react'
 const Navbar = () => {
     const navs = ['For Talents', 'For Businesses', 'Pricing', 'Collaborate', 'Resources'];
     return (
-        <div className='bg-[#cafdc6]  border-b-[1px] items-center flex flex-row justify-between px-3 md:px-24 border-[#00554e] w-screen h-fit py-7'>
+        <div className='bg-[#cafdc6]  border-b-[1px] items-center flex flex-row justify-between px-3 lg:px-24 border-[#00554e] w-screen h-fit py-7'>
             <h1 className='font-extrabold text-5xl '>Ruul</h1>
-            <div className='md:flex hidden flex-row gap-10'>
+            <div className='lg:flex hidden flex-row gap-10'>
                 {navs.map((nav, index)=>(
                     <p key={index} className='font-extralight text-xl'>{nav}</p>
                 ))}

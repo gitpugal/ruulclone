@@ -66,8 +66,8 @@ const UserStories = () => {
         }
     ]
     return (
-        <div className='min-h-full pb-32 relative px-5 md:px-20  text-[#cafdc6] max-h-fit w-full bg-[#003e39]'>
-            <div className='flex w-full  relative  h-full justify-between flex-col md:flex-row gap-7'>
+        <div className='min-h-full pb-32 relative px-5 lg:px-20  text-[#cafdc6] max-h-fit w-full bg-[#003e39]'>
+            <div className='flex w-full  relative  h-full justify-between flex-col lg:flex-row gap-7'>
                 <div className='w-full'>
                     <p className=' absolute left-22 top-24 '>
                         USER STORIES
@@ -76,12 +76,12 @@ const UserStories = () => {
                         Why they love Ruul
                     </p>
                 </div>
-                <div className='flex flex-row gap-10 items-center relative md:absolute bottom-0 md:bottom-10 right-0 justify-end'>
+                <div className='flex flex-row gap-10 items-center relative lg:absolute bottom-0 lg:bottom-10 right-0 justify-end'>
                     <button id={1} className='border-[1px] border-[#cafdc6] rounded-full h-12 w-12'>&lt;</button>
                     <button id={2} className='border-[1px] border-[#cafdc6 text-[#003e39] bg-[#cafdc6] rounded-full h-12 w-12'>&gt;</button>
                 </div>
             </div>
-            <div id='stories' className='flex snap-mandatory snap-x scroll scroll-smooth text-[#003e39] no-scrollbar flex-col md:flex-row overflow-x-scroll gap-10 mt-4 md:mt-32'>
+            <div id='stories' className='flex snap-mandatory snap-x scroll scroll-smooth text-[#003e39] no-scrollbar flex-col lg:flex-row overflow-x-scroll gap-10 mt-4 lg:mt-32'>
                 {cardData.map((data, index) => (
                     <div key={index} className={`flex  snap-start flex-col items-center justify-evenly  px-10 min-w-[48%] bg-[#f6f8ff]
                       min-h-[42vh] max-h-fit  rounded-2xl`}>
