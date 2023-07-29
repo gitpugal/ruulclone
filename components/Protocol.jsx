@@ -46,8 +46,8 @@ const Protocol = () => {
                 </div>
                 <div className='w-full grid gap-10 grid-cols-2'>
                     {
-                        features.map((el) => (
-                            <div className=' text-xl'>
+                        features.map((el, index) => (
+                            <div key={index} className=' text-xl'>
                                 <p className='font-bold'>
                                     {el.title}
                                 </p>

@@ -16,13 +16,13 @@ const Grow = () => {
                 <h1 className='text-7xl font-extrabold w-full md:w-1/2'>
                     Grow and thrive without borders                </h1>
                 <p className='text-xl w-full md:w-1/2'>
-                    Join 50k+ talents and 10k+ businesses from 120 countries to discover how effortless global work can be with Ruul's smart worktech solutions.                </p>
+                    Join 50k+ talents and 10k+ businesses from 120 countries to discover how effortless global work can be with Ruul&apos;s smart worktech solutions.                </p>
                 <div className='flex flex-col w-full gap-5 md:gap-0 md:flex-row items-center justify-center '>
                     <button className='w-full md:w-fit px-7 py-3 mr-3 rounded-lg bg-[#003e39] text-[#c9fec6] font-bold'>
-                        I'm a Talent
+                        I&apos;m a Talent
                     </button>
                     <button className='w-full md:w-fit  px-7 py-3 mr-3 rounded-lg bg-white text-[#003e39] border-[1px] border-[#003e39] font-bold'>
-                        I'm a Business
+                        I&apos;m a Business
                     </button>
 
                 </div>

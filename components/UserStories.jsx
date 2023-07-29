@@ -80,8 +80,8 @@ const UserStories = () => {
                 </div>
             </div>
             <div id='stories' className='flex snap-mandatory snap-x scroll scroll-smooth text-[#003e39] no-scrollbar flex-col md:flex-row overflow-x-scroll gap-10 mt-4 md:mt-32'>
-                {cardData.map((data) => (
-                    <div className={`flex  snap-start flex-col items-center justify-evenly  px-10 min-w-[48%] bg-[#f6f8ff]
+                {cardData.map((data, index) => (
+                    <div key={index} className={`flex  snap-start flex-col items-center justify-evenly  px-10 min-w-[48%] bg-[#f6f8ff]
                       min-h-[42vh] max-h-fit  rounded-2xl`}>
                         <p className='px-8  rounded-2xl text-xl'>{data.description}</p>
                         <div className='w-full'>

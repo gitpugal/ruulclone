@@ -6,8 +6,8 @@ const Navbar = () => {
         <div className='bg-[#cafdc6]  border-b-[1px] items-center flex flex-row justify-between px-3 md:px-24 border-[#00554e] w-screen h-fit py-7'>
             <h1 className='font-extrabold text-5xl '>Ruul</h1>
             <div className='md:flex hidden flex-row gap-10'>
-                {navs.map((nav)=>(
-                    <p className='font-extralight text-xl'>{nav}</p>
+                {navs.map((nav, index)=>(
+                    <p key={index} className='font-extralight text-xl'>{nav}</p>
                 ))}
             </div>
             <div className='flex flex-row'>

@@ -75,7 +75,7 @@ const Questions = () => {
             <div className='h-full w-full md:w-[70%] flex flex-col  items-center justify-center'>
                 {
                     QandA.map((data, index) => (
-                        <div id={index} data-visible="false" className={`flex font-bold  transition-all gap-5 duration-300 ease-in-out w-full my-5 max-h-fit min-h-[20%]
+                        <div  key={index} id={index} data-visible="false" className={`flex font-bold  transition-all gap-5 duration-300 ease-in-out w-full my-5 max-h-fit min-h-[20%]
                          text-xl items-center flex-col justify-between px-10 py-8   rounded-2xl border-[1px] border-[#003e39]`}>
                             <div className='items-center flex flex-row justify-around w-full'>
                                 <p className=' w-full'>{data.q}</p>

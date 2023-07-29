@@ -21,10 +21,10 @@ const Hero = () => {
                 </p>
                 <div className='w-full flex flex-col md:flex-row items-center justify-start'>
                     <button className='w-full md:w-1/3   mb-5 px-7 py-3 mr-3 rounded-lg bg-[#003e39] text-[#c9fec6] font-bold'>
-                        I'm a Talent
+                        I&apos;m a Talent
                     </button>
                     <button className='w-full md:w-1/3  mb-5 px-7 py-3 mr-3 rounded-lg bg-white text-[#003e39] border-[1px] border-[#003e39] font-bold'>
-                        I'm a Business
+                        I&apos;m a Business
                     </button>
 
                 </div>
@@ -35,11 +35,11 @@ const Hero = () => {
                 <Image src={heroBg} className='w-[80%]' alt="hero Bg" />
             </div>
             <div className=' z-10 w-fit  mx-auto relative md:absolute h-fit md:bottom-[-9%]  grid grid-cols-2 md:grid-cols-4 gap-10'>
-                {heroImages.map((icon) => (
-                    <div className='bg-[#f6f8fe] shadow-[9px_8px_0px_0px_rgba(0,0,0,1)] hover:shadow-none transition-all duration-100 hover:scale-110 
+                {heroImages.map((icon, index) => (
+                    <div key={index} className='bg-[#f6f8fe] shadow-[9px_8px_0px_0px_rgba(0,0,0,1)] hover:shadow-none transition-all duration-100 hover:scale-110 
                     hover:border-none flex items-center w-3/4
                      py-3 rounded-2xl border-[1px] border-[#003e39] overflow-hidden'>
-                        <Image src={icon} />
+                        <Image src={icon} alt='icon'/>
                     </div>
                 ))}
             </div>
