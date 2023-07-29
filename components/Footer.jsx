@@ -35,7 +35,7 @@ const Footer = () => {
             <div className=' pt-24 items-center grid grid-cols-2 md:grid-cols-6 px-10 text-[#cafdc6] w-full '>
                 <h1 className='font-extrabold text-6xl '>Ruul</h1>
                 {footerLinks.map((links, index) => (
-                    <div id={index} className='my-8'>
+                    <div key={index} id={index} className='my-8'>
                         <h1 className='font-bold mb-8'>{links.title}</h1>
                         <div className='flex flex-col gap-5'>
                             {links.links.map((link, index1) => (
