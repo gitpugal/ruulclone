@@ -2,17 +2,19 @@
 import React from 'react'
 
 const UserStories = () => {
-    const buttons = document.querySelectorAll("button");
-    buttons.forEach(element => {
-        element.addEventListener("click", () => {
-            if (element.id == 1) {
-                document.getElementById('stories').scrollBy(-100, 0)
-            } else {
-                document.getElementById('stories').scrollBy(100, 0)
+    if (typeof window === 'object') {
+        const buttons = document.querySelectorAll("button");
+        buttons.forEach(element => {
+            element.addEventListener("click", () => {
+                if (element.id == 1) {
+                    document.getElementById('stories').scrollBy(-100, 0)
+                } else {
+                    document.getElementById('stories').scrollBy(100, 0)
 
-            }
-        })
-    });
+                }
+            })
+        });
+    }
     const cardData = [
         {
             id: 1,
